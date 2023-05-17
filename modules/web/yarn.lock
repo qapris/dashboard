@@ -4528,10 +4528,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ace-builds@npm:1.15.0":
-  version: 1.15.0
-  resolution: "ace-builds@npm:1.15.0"
-  checksum: fc67d8c4358a3029c1d4caab7fbc5a4b021bd082dbd16684e4a8ab7e77da2cf194e2fac577ac4a6e22e06af8bd306ebb9382ad34c7f028dbea8895081f4ee9ce
+"ace-builds@npm:1.18.0":
+  version: 1.18.0
+  resolution: "ace-builds@npm:1.18.0"
+  checksum: f11c92f64adc0e2d4800e6968aa74172c81812cb8103c7bc043d837aceb54fe29e223adcc34d6aab44cdc6c68cbe6631ddbe02251c54655fe7b0b7880e40c708
   languageName: node
   linkType: hard
 
@@ -10535,7 +10535,7 @@ __metadata:
     "@types/node": 18.13.0
     "@typescript-eslint/eslint-plugin": 5.38.0
     "@typescript-eslint/parser": 5.38.0
-    ace-builds: 1.15.0
+    ace-builds: 1.18.0
     codelyzer: 6.0.2
     concurrently: 7.6.0
     core-js: 3.27.2
@@ -14852,7 +14852,7 @@ __metadata:
 
 "typescript@patch:typescript@4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
