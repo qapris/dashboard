@@ -237,9 +237,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cdk@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@angular/cdk@npm:15.1.4"
+"@angular/cdk@npm:15.2.8":
+  version: 15.2.8
+  resolution: "@angular/cdk@npm:15.2.8"
   dependencies:
     parse5: ^7.1.2
     tslib: ^2.3.0
@@ -250,7 +250,7 @@ __metadata:
   dependenciesMeta:
     parse5:
       optional: true
-  checksum: f65d7579850719dc7f36a090bef89f9938fe073f63172d3eab1b4a23ae908dbafc22d0e6fcf0f7e846ce468e95453d06a7be70014e59dd02e23a7f6d2bd1fc2f
+  checksum: 8155f35522a43e7a23fabbd19e48b2c6eb2400a9c9c61b207ad46ad84501c7940c24834d10a31826521c247192a8e219a1ae835a7e9fb8efdf965b958a6aba44
   languageName: node
   linkType: hard
 
@@ -419,20 +419,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/material@npm:14.2.2":
-  version: 14.2.2
-  resolution: "@angular/material@npm:14.2.2"
+"@angular/material@npm:14.2.7":
+  version: 14.2.7
+  resolution: "@angular/material@npm:14.2.7"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
     "@angular/animations": ^14.0.0 || ^15.0.0
-    "@angular/cdk": 14.2.2
+    "@angular/cdk": 14.2.7
     "@angular/common": ^14.0.0 || ^15.0.0
     "@angular/core": ^14.0.0 || ^15.0.0
     "@angular/forms": ^14.0.0 || ^15.0.0
     "@angular/platform-browser": ^14.0.0 || ^15.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 4ca914b76c5233be07c2b18e05e01bc9d2ab47d904803103ae50ca4b33d485eda2d1435902b8d2010709816a95ddef3eccae6e9784de41bf3c50f18c5f71ed3c
+  checksum: 078e944fb852b7d727a879c7fb5a9914f12447dbb4686444405565ea4aa40b076a60624c9bf2b3d9bc568ac6a50026b8a5ca614494253328421f8d14adb4afde
   languageName: node
   linkType: hard
 
@@ -10505,7 +10505,7 @@ __metadata:
   dependencies:
     "@angular-devkit/build-angular": 15.1.5
     "@angular/animations": 15.1.4
-    "@angular/cdk": 15.1.4
+    "@angular/cdk": 15.2.8
     "@angular/cli": 15.1.5
     "@angular/common": 15.1.4
     "@angular/compiler": 15.1.4
@@ -10515,7 +10515,7 @@ __metadata:
     "@angular/forms": 15.1.4
     "@angular/language-service": 15.1.4
     "@angular/localize": 15.1.4
-    "@angular/material": 14.2.2
+    "@angular/material": 14.2.7
     "@angular/platform-browser": 15.1.4
     "@angular/platform-browser-dynamic": 15.1.4
     "@angular/router": 15.1.4
@@ -14852,7 +14852,7 @@ __metadata:
 
 "typescript@patch:typescript@4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
