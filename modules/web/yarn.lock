@@ -429,21 +429,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/localize@npm:15.2.7":
-  version: 15.2.7
-  resolution: "@angular/localize@npm:15.2.7"
+"@angular/localize@npm:16.1.1":
+  version: 16.1.1
+  resolution: "@angular/localize@npm:16.1.1"
   dependencies:
-    "@babel/core": 7.19.3
-    glob: 8.1.0
+    "@babel/core": 7.21.8
+    fast-glob: 3.2.12
     yargs: ^17.2.1
   peerDependencies:
-    "@angular/compiler": 15.2.7
-    "@angular/compiler-cli": 15.2.7
+    "@angular/compiler": 16.1.1
+    "@angular/compiler-cli": 16.1.1
   bin:
     localize-extract: tools/bundles/src/extract/cli.js
     localize-migrate: tools/bundles/src/migrate/cli.js
     localize-translate: tools/bundles/src/translate/cli.js
-  checksum: feba2718bfa6adcef278aec6d24b4485a2536f6650773f756dbacbba5885ef37eb3f1265a2eef6eed82aff06c1726fa4f49a7f5999721e5b99e0cf27690d8d9f
+  checksum: 055372824a9c6e6289cfbdc7a78126bacd059bbee5f959e6665ed9629897c13e6e89369b44af739a339b535a4efd52251bfa0a19da66749754fe7bd1c6619acf
   languageName: node
   linkType: hard
 
@@ -533,7 +533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.22.5":
+"@babel/code-frame@npm:^7.21.4, @babel/code-frame@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/code-frame@npm:7.22.5"
   dependencies:
@@ -606,6 +606,29 @@ __metadata:
     json5: ^2.2.2
     semver: ^6.3.0
   checksum: 62e6c3e2149a70b5c9729ef5f0d3e2e97e9dcde89fc039c8d8e3463d5d7ba9b29ee84d10faf79b61532ac1645aa62f2bd42338320617e6e3a8a4d8e2a27076e7
+  languageName: node
+  linkType: hard
+
+"@babel/core@npm:7.21.8":
+  version: 7.21.8
+  resolution: "@babel/core@npm:7.21.8"
+  dependencies:
+    "@ampproject/remapping": ^2.2.0
+    "@babel/code-frame": ^7.21.4
+    "@babel/generator": ^7.21.5
+    "@babel/helper-compilation-targets": ^7.21.5
+    "@babel/helper-module-transforms": ^7.21.5
+    "@babel/helpers": ^7.21.5
+    "@babel/parser": ^7.21.8
+    "@babel/template": ^7.20.7
+    "@babel/traverse": ^7.21.5
+    "@babel/types": ^7.21.5
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    gensync: ^1.0.0-beta.2
+    json5: ^2.2.2
+    semver: ^6.3.0
+  checksum: f28118447355af2a90bd340e2e60699f94c8020517eba9b71bf8ebff62fa9e00d63f076e033f9dfb97548053ad62ada45fafb0d96584b1a90e8aef5a3b8241b1
   languageName: node
   linkType: hard
 
@@ -688,7 +711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.22.5":
+"@babel/generator@npm:^7.21.5, @babel/generator@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/generator@npm:7.22.5"
   dependencies:
@@ -766,7 +789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-compilation-targets@npm:^7.22.5":
+"@babel/helper-compilation-targets@npm:^7.21.5, @babel/helper-compilation-targets@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/helper-compilation-targets@npm:7.22.5"
   dependencies:
@@ -1012,7 +1035,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-transforms@npm:^7.22.5":
+"@babel/helper-module-transforms@npm:^7.21.5, @babel/helper-module-transforms@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/helper-module-transforms@npm:7.22.5"
   dependencies:
@@ -1294,7 +1317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.22.5":
+"@babel/helpers@npm:^7.21.5, @babel/helpers@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/helpers@npm:7.22.5"
   dependencies:
@@ -1345,7 +1368,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.22.5":
+"@babel/parser@npm:^7.21.8, @babel/parser@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/parser@npm:7.22.5"
   bin:
@@ -3129,7 +3152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.22.5":
+"@babel/traverse@npm:^7.21.5, @babel/traverse@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/traverse@npm:7.22.5"
   dependencies:
@@ -3169,7 +3192,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.22.5":
+"@babel/types@npm:^7.21.5, @babel/types@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/types@npm:7.22.5"
   dependencies:
@@ -9110,7 +9133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9":
+"fast-glob@npm:3.2.12, fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -9602,19 +9625,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:8.1.0, glob@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "glob@npm:8.1.0"
-  dependencies:
-    fs.realpath: ^1.0.0
-    inflight: ^1.0.4
-    inherits: 2
-    minimatch: ^5.0.1
-    once: ^1.3.0
-  checksum: 92fbea3221a7d12075f26f0227abac435de868dd0736a17170663783296d0dd8d3d532a5672b4488a439bf5d7fb85cdd07c11185d6cd39184f0385cbdfb86a47
-  languageName: node
-  linkType: hard
-
 "glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6, glob@npm:~7.2.0":
   version: 7.2.3
   resolution: "glob@npm:7.2.3"
@@ -9626,6 +9636,19 @@ __metadata:
     once: ^1.3.0
     path-is-absolute: ^1.0.0
   checksum: 29452e97b38fa704dabb1d1045350fb2467cf0277e155aa9ff7077e90ad81d1ea9d53d3ee63bd37c05b09a065e90f16aec4a65f5b8de401d1dac40bc5605d133
+  languageName: node
+  linkType: hard
+
+"glob@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "glob@npm:8.1.0"
+  dependencies:
+    fs.realpath: ^1.0.0
+    inflight: ^1.0.4
+    inherits: 2
+    minimatch: ^5.0.1
+    once: ^1.3.0
+  checksum: 92fbea3221a7d12075f26f0227abac435de868dd0736a17170663783296d0dd8d3d532a5672b4488a439bf5d7fb85cdd07c11185d6cd39184f0385cbdfb86a47
   languageName: node
   linkType: hard
 
@@ -11572,7 +11595,7 @@ __metadata:
     "@angular/flex-layout": 15.0.0-beta.42
     "@angular/forms": 15.2.7
     "@angular/language-service": 15.2.7
-    "@angular/localize": 15.2.7
+    "@angular/localize": 16.1.1
     "@angular/material": 14.2.2
     "@angular/platform-browser": 15.2.7
     "@angular/platform-browser-dynamic": 15.2.7
