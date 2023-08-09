@@ -4845,10 +4845,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.2.5":
-  version: 20.2.5
-  resolution: "@types/node@npm:20.2.5"
-  checksum: 38ce7c7e9d76880dc632f71d71e0d5914fcda9d5e9a7095d6c339abda55ca4affb0f2a882aeb29398f8e09d2c5151f0b6586c81c8ccdfe529c34b1ea3337425e
+"@types/node@npm:20.4.9":
+  version: 20.4.9
+  resolution: "@types/node@npm:20.4.9"
+  checksum: 504e3da96274f3865c1251830f4750bb0a8f6ef6f8648902cd3bba33370c5f219235471bfbf55cce726b25c8eacfcc8e2aad0ec3b13e27ea6708b00d4a9a46c8
   languageName: node
   linkType: hard
 
@@ -11590,7 +11590,7 @@ __metadata:
     "@types/jest": 29.5.2
     "@types/js-yaml": 4.0.5
     "@types/lodash-es": 4.17.7
-    "@types/node": 20.2.5
+    "@types/node": 20.4.9
     "@typescript-eslint/eslint-plugin": 5.59.9
     "@typescript-eslint/parser": 5.59.9
     ace-builds: 1.22.0
