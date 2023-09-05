@@ -33,7 +33,7 @@ jobs:
     env:
       TERM: xterm
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: apache/skywalking-eyes@main
@@ -49,7 +49,7 @@ jobs:
       matrix:
         language: [ 'go', 'typescript' ]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: github/codeql-action/init@v2
@@ -65,7 +65,7 @@ jobs:
     name: Dependency review
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: actions/dependency-review-action@v3
@@ -90,7 +90,7 @@ jobs:
              --heapster-port=8082 \
              --source=kubernetes:http://127.0.0.1:8080?inClusterConfig=false&auth=""
       - run: kind get kubeconfig --name="k8s-cluster-ci" > ${HOME}/.kube/config
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: actions/setup-go@v4
