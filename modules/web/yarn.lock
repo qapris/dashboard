@@ -347,17 +347,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:15.2.7":
-  version: 15.2.7
-  resolution: "@angular/compiler@npm:15.2.7"
+"@angular/compiler@npm:19.2.17":
+  version: 19.2.17
+  resolution: "@angular/compiler@npm:19.2.17"
   dependencies:
     tslib: ^2.3.0
-  peerDependencies:
-    "@angular/core": 15.2.7
-  peerDependenciesMeta:
-    "@angular/core":
-      optional: true
-  checksum: 3e41ddd76475ddfce5af37a90ee4e5294a73df97891fed360072cc79b3fbde4be324e8b35384c66422e58443f3ab3c2390f61d3d1f5f852d3ddf812452847e8d
+  checksum: d0cfa0c00d0ae59441decd417965039b0b2a327e3ddc06e11144ed35b60734d3adc57f1f11fec21290db607a405cb77bcb5184693015a1b90413c3893e2b08f8
   languageName: node
   linkType: hard
 
@@ -11566,7 +11561,7 @@ __metadata:
     "@angular/cdk": 15.2.7
     "@angular/cli": 15.2.6
     "@angular/common": 15.2.7
-    "@angular/compiler": 15.2.7
+    "@angular/compiler": 19.2.17
     "@angular/compiler-cli": 15.2.7
     "@angular/core": 15.2.7
     "@angular/flex-layout": 15.0.0-beta.42
@@ -16106,7 +16101,7 @@ __metadata:
 
 "typescript@patch:typescript@4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
