@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM nginx
+FROM nginx:1.29.4-trixie
 
 COPY hack/gateway/config /etc/nginx
 COPY .dist/certificates/private.key /etc/ssl/private/localhost.key
